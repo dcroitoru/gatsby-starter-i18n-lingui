@@ -1,0 +1,34 @@
+{
+  "Hi from the second page": {
+    "origin": [
+      [
+        "src/pages/page-2.js",
+        7
+      ]
+    ]
+  },
+  "Welcome to page 2": {
+    "origin": [
+      [
+        "src/pages/page-2.js",
+        8
+      ]
+    ]
+  },
+  "/": {
+    "origin": [
+      [
+        "src/pages/page-2.js",
+        9
+      ]
+    ]
+  },
+  "Go back to the homepage": {
+    "origin": [
+      [
+        "src/pages/page-2.js",
+        9
+      ]
+    ]
+  }
+}
