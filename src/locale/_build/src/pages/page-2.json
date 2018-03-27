@@ -3,15 +3,16 @@
     "origin": [
       [
         "src/pages/page-2.js",
-        7
+        8
       ]
     ]
   },
-  "Welcome to page 2": {
+  "welcome-page-2": {
+    "defaults": "Welcome to page 2",
     "origin": [
       [
         "src/pages/page-2.js",
-        8
+        11
       ]
     ]
   },
@@ -19,7 +20,7 @@
     "origin": [
       [
         "src/pages/page-2.js",
-        9
+        13
       ]
     ]
   },
@@ -27,7 +28,7 @@
     "origin": [
       [
         "src/pages/page-2.js",
-        9
+        14
       ]
     ]
   }

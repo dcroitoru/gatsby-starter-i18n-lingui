@@ -7,9 +7,9 @@ const SecondPage = ({i18n}) => (
     <h1>
       <Trans>Hi from the second page</Trans>
     </h1>
-    <p>
-      <Trans>Welcome to page 2</Trans>
-    </p>
+    
+    <Trans id="welcome-page-2" render="p" />
+    
     <Link to={i18n.t`/`}>
       <Trans>Go back to the homepage</Trans>
     </Link>
