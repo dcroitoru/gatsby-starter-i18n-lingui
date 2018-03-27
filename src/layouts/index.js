@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { I18nProvider, withI18n, Trans } from '@lingui/react'
 import { navigateTo } from 'gatsby-link'
 import Header from '../components/Header'
-import { catalogs, prefix, deprefix } from '../i18n-config'
+import { catalogs, prefix, deprefix, langFromPath } from '../i18n-config'
 import './index.css'
 
 const TemplateWrapper = ({ children, lang, onLangChange }) => (
@@ -34,7 +34,7 @@ export default class extends React.Component {
   }
 
   render = () => {
-    const lang = this.props.location.pathname.startsWith('/ro/') ? 'ro' : 'en'
+    const lang = langFromPath(this.props.location.pathname)
     return (
       <I18nProvider language={lang} catalogs={catalogs}>
         <TemplateWrapper {...this.props} lang={lang} onLangChange={this.onLangChange} />
