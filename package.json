@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-starter-i18n-lingui",
+  "description": "Gatsby starter with i18n/l10n support using js-lingui.",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "keywords": [ "gatsby" ],
+  "author": "Denis Croitoru <dennis.croitoru@gmail.com>",
+  "keywords": [ "gatsby", "js-lingui", "react", "i18n" ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
