@@ -2,7 +2,7 @@
 Gatsby starter with i18n/l10n support using [js-lingui](https://github.com/lingui/js-lingui).  
 This will generate pages for each locale avoiding duplicate code.  
 
-[Demo](https://stupefied-aryabhata-5427d0.netlify.com/)
+[Demo](https://gatsby-starter-i18n-lingui.netlify.com/)
 
 ## Install
 
