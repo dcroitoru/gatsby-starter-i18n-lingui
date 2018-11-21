@@ -1,3 +1,6 @@
+# Update Nov. 2018
+Keeping this branch here for Gatsby V1 for whatever reason
+
 # gatsby-starter-i18n-linguijs
 Gatsby starter with i18n/l10n support using [js-lingui](https://github.com/lingui/js-lingui).  
 This will generate pages for each locale avoiding duplicate code.  
